@@ -1,0 +1,55 @@
+node_modules
+.env
+coverage/
+coverage.json
+artifacts/
+cache/
+# Hardhat files
+hardhat.config.js.BACKUP.*
+# Slither files
+*.slither.db.json
+# Foundry files
+broadcast/
+cache-forge/
+# NYC coverage files
+.nyc_output/
+# macOS files
+.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# dotenv environment variables file
+.env
+
+# Lockfiles
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Debug log from Hardhat Ignition
+ignition/deployments/chain-*/debug/*
+# Deployment journal from Hardhat Ignition
+ignition/deployments/chain-*/journal.jsonl
+# Deployed addresses from Hardhat Ignition
+ignition/deployments/chain-*/deployed_addresses.json
+# Future manifest files from Hardhat Ignition
+ignition/deployments/chain-*/future-*.json
+# Parameter files from Hardhat Ignition
+ignition/deployments/chain-*/params/*.json
+# Cache files from Hardhat Ignition
+ignition/cache/*
